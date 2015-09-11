@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <script src="js/jquery-1.11.3.js"></script>
-        <script src="js/scripts.js"></script>
-        <title></title>
-    </head>
-    <body>
-        <div class="container" align="center">
-            <div class="row">
-                <div class="col-lg-6">
-                    <form id="replaceWord">
-                        <div class="form-group">
-                            <label for="sentence"><h2>Enter a sentence or two below!</h2></label><br>
-                            <input type="text" id="sentence">
-                        </div>
-                        <button type="submit" class="btn">Find out!</button>
-                    </form>
-                </div>
-                <div class="col-lg-6">
-                    filler text
-                </div>
-            </div>
-            <div class="row" id="bottom-chickens">
-                <div id="result">
-                    <h1><span class="output"></span></h1>
+<head>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/scripts.js"></script>
+  <title></title>
+</head>
+<body>
+  <div class="container" align="center">
+    <div class="row">
+      <div class="col-lg-6">
+        <form id="replaceWord">
+          <div class="form-group">
+            <label for="sentence"><h2>Enter a sentence or two below!</h2></label><br>
+            <input type="text" id="sentence">
+          </div>
+          <button type="submit" class="btn">View sentence</button>
+        </form>
+      </div>
+      <div class="col-lg-6">
+        filler text
+      </div>
+    </div>
+    <div class="row" id="bottom-chickens">
+      <div id="result">
+        <h1><span class="output"></span></h1><br>
+        <form id="replaceWord">
+          <div class="form-group">
+            <label for="searchWord"><h5>Enter a word to search for in your sentence:</h5></label>
+            <input type="text" id="searchWord"><br>
+            <label for="replacementWord"><h5>Enter a word to replace the previous word with:</h5></label>
+            <input type="text" id="replacementWord"><br>
+          </div>
+          <button type="submit" class="btn">Replace!</button>
+        </form>
 
-                </div>
-                filler text
-            </div>
+      </div>
+      filler text
+    </div>
 
 
-    </body>
-</html>
+  </body>
+  </html>

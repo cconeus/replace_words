@@ -1,19 +1,19 @@
 var replaceWord = function(sentence) {
-    var output = [];
+  var output = [];
 
-    return output;
+  return output;
 };
 
 $(document).ready(function() {
-    $("form#replaceWord").submit(function(event){
-        var sentence = $("input#sentence").val();
-        var searchWord = $("input#searchWord").val();
-        var replaceWord = $("input#replaceWord").val();
-        var result = replaceWord(sentence);
+  $("form#replaceWord").submit(function(event){
+    var sentence = $("input#sentence").val();
+    var searchWord = $("input#searchWord").val();
+    var replacementWord = $("input#replacementWord").val();
+    var result = replaceWord(sentence);
 
-        $(".output").text(result);
+    $(".output").text(result);
 
-        $("#result").show();
-        event.preventDefault();
-    });
+    $("#result").show();
+    event.preventDefault();
+  });
 });
