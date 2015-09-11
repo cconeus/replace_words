@@ -1,7 +1,7 @@
 var replaceWord = function(sentence) {
   var output = [];
-
-  return output;
+  output.push(sentence);
+  return output.toString();
 };
 
 $(document).ready(function() {
