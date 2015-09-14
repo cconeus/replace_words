@@ -1,8 +1,8 @@
 var replaceWord = function(sentence) {
-  //debugger;
-  var output = [];
-  output.push(sentence);
-  return output.toString();
+  debugger;
+  var output = "";
+  output.toString(sentence);
+  return output;
 };
 
 $(document).ready(function() {
@@ -17,7 +17,6 @@ $(document).ready(function() {
     $(".output").text(result2);
 
     $("#result").show();
-    //$("#result2").show();
     event.preventDefault();
   });
 });
